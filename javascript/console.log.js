@@ -1,0 +1,1 @@
+console.log("%c Welcome to the jungle ", "background: #107F10;\ncolor: #ffffff;\nfont-size: 18px;\nfont-family: 'Helvetica Neue';\nfont-weight: 300;\nline-height: 30px;\nheight: 30px;\npadding: 5px");
