@@ -234,13 +234,19 @@ background: #f5f5f5 !important;
 }
 
 .header_top #searchform {
-  background: #ffffff;
-  margin-top: 3px
+  background: transparent;
+  margin-top: 3px;
+  height: 35px;
+}
+.header_top #searchform input[type=text] {
+  height: 30px;
 }
 
+/*
 .header_top #searchform div {
   display: flex;
 }
+*/
 
 @media screen and (max-device-width : 480px) {
   .header_top #searchform {
@@ -318,4 +324,7 @@ nav.mobile_menu ul>li.has_sub ul.open_sub>li>span.mobile_arrow i.fa-angle-down, 
 
 .qbutton, .qbutton.medium, #submit_comment, .load_more a, .blog_load_more_button a, .post-password-form input[type='submit'], input.wpcf7-form-control.wpcf7-submit, input.wpcf7-form-control.wpcf7-submit:not([disabled]), .woocommerce table.cart td.actions input[type="submit"], .woocommerce input#place_order, .woocommerce-page input[type="submit"], .woocommerce .button {
   background-color: #d9ba5d;
+}
+.qbutton:hover, #submit_comment:hover, .load_more a:hover, .blog_load_more_button a:hover, .post-password-form input[type='submit']:hover, input.wpcf7-form-control.wpcf7-submit:not([disabled]):hover, .woocommerce table.cart td.actions input[type="submit"]:hover, .woocommerce input#place_order:hover, .woocommerce-page input[type="submit"]:hover, .woocommerce .button:hover {
+  background-color: #363636 !important;
 }
